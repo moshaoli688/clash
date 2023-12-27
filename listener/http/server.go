@@ -3,8 +3,8 @@ package http
 import (
 	"net"
 
-	"github.com/Dreamacro/clash/common/cache"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/moshaoli688/clash/common/cache"
+	C "github.com/moshaoli688/clash/constant"
 )
 
 type Listener struct {

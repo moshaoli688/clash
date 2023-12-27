@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/common/cache"
-	"github.com/Dreamacro/clash/component/fakeip"
-	"github.com/Dreamacro/clash/component/trie"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/context"
-	"github.com/Dreamacro/clash/log"
+	"github.com/moshaoli688/clash/common/cache"
+	"github.com/moshaoli688/clash/component/fakeip"
+	"github.com/moshaoli688/clash/component/trie"
+	C "github.com/moshaoli688/clash/constant"
+	"github.com/moshaoli688/clash/context"
+	"github.com/moshaoli688/clash/log"
 
 	D "github.com/miekg/dns"
 )

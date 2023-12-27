@@ -17,7 +17,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Dreamacro/clash/common/pool"
+	"github.com/moshaoli688/clash/common/pool"
 
 	"go.uber.org/atomic"
 	"golang.org/x/net/http2"

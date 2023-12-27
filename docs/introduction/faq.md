@@ -5,7 +5,7 @@ sidebarOrder: 4
 
 # Frequently Asked Questions
 
-Here we have some common questions people ask. If you have any questions not listed here, feel free to [open an issue](https://github.com/Dreamacro/clash/issues/new/choose).
+Here we have some common questions people ask. If you have any questions not listed here, feel free to [open an issue](https://github.com/moshaoli688/clash/issues/new/choose).
 
 [[toc]]
 
@@ -35,11 +35,11 @@ Quoting from [golang/go](https://github.com/golang/go/wiki/MinimumRequirements#a
 
 Here are some common systems that people use Clash on, and the recommended release for each of them:
 
-- NETGEAR WNDR3700v2: mips-hardfloat [#846](https://github.com/Dreamacro/clash/issues/846)
-- NETGEAR WNDR3800: mips-softfloat [#579](https://github.com/Dreamacro/clash/issues/579)
-- ASUS RT-AC5300: armv5 [#2356](https://github.com/Dreamacro/clash/issues/2356)
-- MediaTek MT7620A, MT7621A: mipsle-softfloat ([#136](https://github.com/Dreamacro/clash/issues/136))
-- mips_24kc: [#192](https://github.com/Dreamacro/clash/issues/192)
+- NETGEAR WNDR3700v2: mips-hardfloat [#846](https://github.com/moshaoli688/clash/issues/846)
+- NETGEAR WNDR3800: mips-softfloat [#579](https://github.com/moshaoli688/clash/issues/579)
+- ASUS RT-AC5300: armv5 [#2356](https://github.com/moshaoli688/clash/issues/2356)
+- MediaTek MT7620A, MT7621A: mipsle-softfloat ([#136](https://github.com/moshaoli688/clash/issues/136))
+- mips_24kc: [#192](https://github.com/moshaoli688/clash/issues/192)
 
 If your device is not listed here, you can check the CPU architecture of your device with `uname -m` and find the corresponding release in the release page.
 
@@ -47,20 +47,20 @@ If your device is not listed here, you can check the CPU architecture of your de
 
 The official Clash core project will not implement/fix these things:
 
-- [Snell](https://github.com/Dreamacro/clash/issues/2466)
-- [Custom CA](https://github.com/Dreamacro/clash/issues/2333)
-- [VMess Mux](https://github.com/Dreamacro/clash/issues/450)
-- [VLess](https://github.com/Dreamacro/clash/issues/1185)
-- [KCP](https://github.com/Dreamacro/clash/issues/16)
-- [mKCP](https://github.com/Dreamacro/clash/issues/2308)
-- [TLS Encrypted Client Hello](https://github.com/Dreamacro/clash/issues/2295)
-- [TCP support for Clash DNS server](https://github.com/Dreamacro/clash/issues/368)
-- [MITM](https://github.com/Dreamacro/clash/issues/227#issuecomment-508693628)
+- [Snell](https://github.com/moshaoli688/clash/issues/2466)
+- [Custom CA](https://github.com/moshaoli688/clash/issues/2333)
+- [VMess Mux](https://github.com/moshaoli688/clash/issues/450)
+- [VLess](https://github.com/moshaoli688/clash/issues/1185)
+- [KCP](https://github.com/moshaoli688/clash/issues/16)
+- [mKCP](https://github.com/moshaoli688/clash/issues/2308)
+- [TLS Encrypted Client Hello](https://github.com/moshaoli688/clash/issues/2295)
+- [TCP support for Clash DNS server](https://github.com/moshaoli688/clash/issues/368)
+- [MITM](https://github.com/moshaoli688/clash/issues/227#issuecomment-508693628)
 
 The following will be considered implementing when the official Go QUIC library releases.
 
-- [TUIC](https://github.com/Dreamacro/clash/issues/2222)
-- [Hysteria](https://github.com/Dreamacro/clash/issues/1863)
+- [TUIC](https://github.com/moshaoli688/clash/issues/2222)
+- [Hysteria](https://github.com/moshaoli688/clash/issues/1863)
 
 ## Proxies work on my local machine, but not on my router or in a container
 
@@ -68,14 +68,14 @@ Your system might be out of sync in time. Refer to your platform documentations 
 
 ## Time complexity of rule matching
 
-Refer to this discussion: [#422](https://github.com/Dreamacro/clash/issues/422)
+Refer to this discussion: [#422](https://github.com/moshaoli688/clash/issues/422)
 
 ## Clash Premium unable to access Internet
 
 You can refer to these relevant discussions:
 
-- [#432](https://github.com/Dreamacro/clash/issues/432#issuecomment-571634905)
-- [#2480](https://github.com/Dreamacro/clash/issues/2480)
+- [#432](https://github.com/moshaoli688/clash/issues/432#issuecomment-571634905)
+- [#2480](https://github.com/moshaoli688/clash/issues/2480)
 
 ## error: unsupported rule type RULE-SET
 
@@ -85,7 +85,7 @@ If you stumbled on this error message:
 FATA[0000] Parse config error: Rules[0] [RULE-SET,apple,REJECT] error: unsupported rule type RULE-SET
 ```
 
-You're using Clash open-source edition. Rule Providers is currently only available in the [Premium core](https://github.com/Dreamacro/clash/releases/tag/premium). (it's free)
+You're using Clash open-source edition. Rule Providers is currently only available in the [Premium core](https://github.com/moshaoli688/clash/releases/tag/premium). (it's free)
 
 ## DNS Hijack does not work
 

@@ -270,7 +270,7 @@ Clash also supports HTTP outbound:
 Being an alternative protocol for anti-censorship, Clash has integrated support for Snell as well.
 
 ::: tip
-Clash does not support Snell v4. ([#2466](https://github.com/Dreamacro/clash/issues/2466))
+Clash does not support Snell v4. ([#2466](https://github.com/moshaoli688/clash/issues/2466))
 :::
 
 ```yaml

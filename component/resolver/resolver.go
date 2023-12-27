@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Dreamacro/clash/component/trie"
+	"github.com/moshaoli688/clash/component/trie"
 
 	"github.com/miekg/dns"
 )
