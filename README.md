@@ -20,6 +20,8 @@
 
 ## Features
 
+使用dreamacro的源码编译的，且用且珍惜吧，由于没有premium的源码，所以去premium镜像下载，地址（包含客户端镜像）：https://www.clash.la/releases/ 
+
 This is a general overview of the features that comes with Clash.  
 
 - Inbound: HTTP, HTTPS, SOCKS5 server, TUN device
@@ -36,6 +38,7 @@ This is a general overview of the features that comes with Clash.
 ## Documentation
 
 You can find the latest documentation at [https://dreamacro.github.io/clash/](https://dreamacro.github.io/clash/).
+文档没弄，有空折腾
 
 ## Credits
 
@@ -47,4 +50,4 @@ You can find the latest documentation at [https://dreamacro.github.io/clash/](ht
 
 This software is released under the GPL-3.0 license.
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FDreamacro%2Fclash.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FDreamacro%2Fclash?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmoshaoli688%2Fclash.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmoshaoli688%2Fclash?ref=badge_large)
