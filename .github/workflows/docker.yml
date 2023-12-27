@@ -38,8 +38,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          username: Dreamacro
-          password: ${{ secrets.PACKAGE_TOKEN }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build dev branch and push
         if: github.ref == 'refs/heads/dev'
@@ -60,10 +60,10 @@ jobs:
           script: |
             const ref = context.payload.ref.replace(/\/?refs\/tags\//, '')
             const tags = [
-              'dreamacro/clash:latest',
-              `dreamacro/clash:${ref}`,
-              'ghcr.io/dreamacro/clash:latest',
-              `ghcr.io/dreamacro/clash:${ref}`
+              'moshaoli688/clash:latest',
+              `moshaoli688/clash:${ref}`,
+              'ghcr.io/moshaoli688/clash:latest',
+              `ghcr.io/moshaoli688/clash:${ref}`
             ]
             return tags.join(',')
           result-encoding: string
