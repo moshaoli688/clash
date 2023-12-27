@@ -3,6 +3,7 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: write-all
     steps:
       - name: Setup Go
         uses: actions/setup-go@v4
