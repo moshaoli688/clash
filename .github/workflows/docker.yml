@@ -48,7 +48,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64
           push: true
-          tags: 'dreamacro/clash:dev,ghcr.io/dreamacro/clash:dev'
+          tags: 'moshaoli688/clash:dev,ghcr.io/moshaoli688/clash:dev'
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
